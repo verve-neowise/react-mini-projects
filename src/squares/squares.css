@@ -1,0 +1,29 @@
+.container {
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.squares {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    border: 1px solid #9b9b9b;
+    align-content: flex-start;
+    overflow-y: auto;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.square {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    background-color: crimson;
+}
